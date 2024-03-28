@@ -1,0 +1,14 @@
+gpg --full-gen-key #GPG key generation
+
+gpg -a --symmetric --cipher-algo AES256 usernames.txt #GPG symmetric encryption
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/nlogocntrcaphnt/misc.git
+git push -u origin main
+
+git remote add origin https://github.com/nlogocntrcaphnt/misc.git
+git branch -M main
+git push -u origin main
